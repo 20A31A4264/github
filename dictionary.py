@@ -1,0 +1,12 @@
+student={}
+student.update(
+    {"name":"name1","age":"20"}
+    )
+print(student)
+print(student['name'])
+print(student['age'])
+print(student.keys())
+print(student.values())
+print(student.items())
+student['age']=167
+print(student)
